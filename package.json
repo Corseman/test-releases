@@ -1,6 +1,6 @@
 {
   "name": "test-releases",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "build": {
     "appId": "com.corseman.test",
     "productName": "Your App",
@@ -17,7 +17,7 @@
       "category": "Office"
     }
   },
-  "description": "",
+  "description": "App test",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -36,10 +36,10 @@
   },
   "homepage": "https://github.com/Corseman/test-releases#readme",
   "dependencies": {
-    "electron": "^19.0.8",
     "electron-updater": "^5.0.5"
   },
   "devDependencies": {
+    "electron": "^19.0.8",
     "electron-builder": "^23.1.0"
   }
 }
