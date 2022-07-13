@@ -1,6 +1,6 @@
 {
   "name": "test-releases",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "build": {
     "appId": "com.corseman.test",
     "productName": "Your App",
@@ -18,11 +18,8 @@
     "build": "electron-builder --mac --windows --linux",
     "release": "electron-builder --mac --windows --linux --publish always"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Corseman/test-releases.git"
-  },
-  "author": "",
+  "repository": "git@github.com:Corseman/test-releases",
+  "author": "test",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Corseman/test-releases/issues"
