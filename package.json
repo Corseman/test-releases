@@ -1,6 +1,6 @@
 {
   "name": "test-releases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "build": {
     "appId": "com.corseman.test",
     "productName": "Your App",
