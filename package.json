@@ -9,19 +9,12 @@
     },
     "dmg": {
       "icon": false
-    },
-    "linux": {
-      "target": [
-        "AppImage"
-      ],
-      "category": "Office"
     }
   },
   "description": "App test",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "postinstall": "electron-builder install-app-deps",
     "build": "electron-builder --mac --windows --linux",
     "release": "electron-builder --mac --windows --linux --publish always"
   },
