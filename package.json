@@ -1,6 +1,6 @@
 {
   "name": "test-releases",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "build": {
     "appId": "com.corseman.test",
     "productName": "Your App",
@@ -39,6 +39,7 @@
     "electron-updater": "^5.0.5"
   },
   "devDependencies": {
+    "dmg-license": "^1.0.11",
     "electron": "^19.0.8",
     "electron-builder": "^23.1.0"
   }
