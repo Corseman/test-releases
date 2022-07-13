@@ -1,0 +1,45 @@
+{
+  "name": "test-releases",
+  "version": "1.0.0",
+  "build": {
+    "appId": "com.corseman.test",
+    "productName": "Your App",
+    "mac": {
+      "category": "public.Office.lifestyle"
+    },
+    "dmg": {
+      "icon": false
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Office"
+    }
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps",
+    "build": "electron-builder --mac --windows --linux",
+    "release": "electron-builder --mac --windows --linux --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corseman/test-releases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corseman/test-releases/issues"
+  },
+  "homepage": "https://github.com/Corseman/test-releases#readme",
+  "dependencies": {
+    "electron": "^19.0.8",
+    "electron-updater": "^5.0.5"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.1.0"
+  }
+}
